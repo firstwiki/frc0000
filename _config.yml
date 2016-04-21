@@ -21,6 +21,7 @@ title:            FIRSTwiki
 tagline:          The FIRST Robotics encyclopedia
 paginate:         5
 safe:             false
+excerpt_separator: ""
 
 data_dir:         _common/_data
 includes_dir:     _common/_includes
@@ -35,6 +36,9 @@ baseurl:          /frc0000
 
 collections:
   frc:
+    output: true
+    permalink: /:slug
+  src:
     output: true
     permalink: /:slug
 
